@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pastor Muhammad Beauty</title>
+</head>
+<body>
+    <h1>Do you have Aura like me? Join my Styling program today!</h1>
+
+    <form>
+        <!-- Dropdown -->
+        <label for="program">Choose a beauty program:</label>
+        <select id="program" name="program">
+            <option value="skincare">Skincare Routine</option>
+            <option value="haircare">Haircare Program</option>
+            <option value="makeup">Dressing Masterclass</option>
+        </select>
+        <br><br>
+
+        <!-- Radio buttons -->
+        <p>Preferred session time:</p>
+        <input type="radio" id="morning" name="session" value="morning">
+        <label for="morning">Morning</label>
+        <input type="radio" id="evening" name="session" value="evening">
+        <label for="evening">Evening</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to our beauty newsletter</label>
+        <br><br>
+
+        <!-- Range -->
+        <label for="intensity">Select pampering intensity:</label>
+        <input type="range" id="intensity" name="intensity" min="1" max="10">
+        <br><br>
+
+        <button type="submit">Join Now</button>
+    </form>
+</body>
+</html>
